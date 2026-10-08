@@ -6,12 +6,12 @@ Cybersecurity engineer focused on applied cryptography, security protocol analys
 
 ### Verifpal: protocol analysis tool
 
-I contribute to [Verifpal](https://github.com/symbolicsoft/verifpal), the security protocol verifier maintained by Dr. Nadim Kobeissi. Through source review and testing, I identified four flaws in its analysis engine, each fixed with credit to my findings in the repository:
+I contribute to [Verifpal](https://github.com/symbolicsoft/verifpal), the security protocol verifier maintained by Dr. Nadim Kobeissi. Through source review and testing, I identified four missed attacks in its analysis engine, each fixed with credit to my findings in the repository:
 
-- [Unlinkability: attacker-observable values assembled from transmitted components](https://github.com/symbolicsoft/verifpal/commit/d9d5d7542b54fed86e4ee4772a7768f4a95de0e3)
-- [Missed attack from disclosure bookkeeping around a failed check](https://github.com/symbolicsoft/verifpal/commit/b2b4ef2f88481cf3e29b4c1ea490e6ffb89077c4)
-- [Scenario analysis: peer incorrectly classified as corrupt](https://github.com/symbolicsoft/verifpal/commit/5962ede0d8df686223c461725119cfcf7f6d0227)
-- [Guarded downstream forwarding: missed duplicate acceptance](https://github.com/symbolicsoft/verifpal/commit/d0969fd3a79f8c7967f79084ef73842020511acb)
+- [Missed unlinkability attack on values assembled from transmitted parts](https://github.com/symbolicsoft/verifpal/commit/d9d5d7542b54fed86e4ee4772a7768f4a95de0e3)
+- [Missed confidentiality attack from incorrect disclosure tracking](https://github.com/symbolicsoft/verifpal/commit/b2b4ef2f88481cf3e29b4c1ea490e6ffb89077c4)
+- [Missed attack from incorrect peer-corruption classification](https://github.com/symbolicsoft/verifpal/commit/5962ede0d8df686223c461725119cfcf7f6d0227)
+- [Missed authentication attack (duplicate acceptance) in guarded message forwarding](https://github.com/symbolicsoft/verifpal/commit/d0969fd3a79f8c7967f79084ef73842020511acb)
 
 ### AdaptiveQKE: graduation project
 
