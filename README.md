@@ -6,12 +6,13 @@ Cybersecurity engineer focused on applied cryptography, security protocol analys
 
 ### Verifpal: protocol analysis tool
 
-I contribute to [Verifpal](https://github.com/symbolicsoft/verifpal), the security protocol verifier maintained by Dr. Nadim Kobeissi. Through source review and testing, I identified four missed attacks in its analysis engine, each fixed with credit to my findings in the repository:
+I contribute to [Verifpal](https://github.com/symbolicsoft/verifpal), the security protocol verifier maintained by Dr. Nadim Kobeissi. Through source review and testing, I identified five missed attacks in its analysis engine, each fixed with credit to my findings in the repository:
 
 - [Missed unlinkability attack on values assembled from transmitted parts](https://github.com/symbolicsoft/verifpal/commit/d9d5d7542b54fed86e4ee4772a7768f4a95de0e3)
 - [Missed confidentiality attack from incorrect disclosure tracking](https://github.com/symbolicsoft/verifpal/commit/b2b4ef2f88481cf3e29b4c1ea490e6ffb89077c4)
 - [Missed attack from incorrect peer-corruption classification](https://github.com/symbolicsoft/verifpal/commit/5962ede0d8df686223c461725119cfcf7f6d0227)
 - [Missed authentication attack (duplicate acceptance) in guarded message forwarding](https://github.com/symbolicsoft/verifpal/commit/d0969fd3a79f8c7967f79084ef73842020511acb)
+- [Missed unlinkability attack depending on disclosure order] (https://github.com/symbolicsoft/verifpal/commit/c626f1bfc171f5a39a88ee366da66a5272b71aec)
 
 ### AdaptiveQKE: graduation project
 
