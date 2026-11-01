@@ -12,7 +12,7 @@ I contribute to [Verifpal](https://github.com/symbolicsoft/verifpal), the securi
 - [Missed confidentiality attack from incorrect disclosure tracking](https://github.com/symbolicsoft/verifpal/commit/b2b4ef2f88481cf3e29b4c1ea490e6ffb89077c4)
 - [Missed attack from incorrect peer-corruption classification](https://github.com/symbolicsoft/verifpal/commit/5962ede0d8df686223c461725119cfcf7f6d0227)
 - [Missed authentication attack (duplicate acceptance) in guarded message forwarding](https://github.com/symbolicsoft/verifpal/commit/d0969fd3a79f8c7967f79084ef73842020511acb)
-- [Missed unlinkability attack depending on disclosure order] (https://github.com/symbolicsoft/verifpal/commit/c626f1bfc171f5a39a88ee366da66a5272b71aec)
+- [Missed unlinkability attack depending on disclosure order](https://github.com/symbolicsoft/verifpal/commit/c626f1bfc171f5a39a88ee366da66a5272b71aec)
 
 ### AdaptiveQKE: graduation project
 
